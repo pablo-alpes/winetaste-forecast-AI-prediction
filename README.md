@@ -106,7 +106,8 @@ The model classifies wine into **3 quality categories**:
 ### **Limitations**
 ⚠ **Class imbalance** – Few high-quality wines (affects predictions)
 ⚠ **Subjective quality scores** – Based on human tastings (not lab-measured)
-⚠ **Only red wine** – White wine requires a separate model
+⚠ **Only red wine** – White wine requires a separate model, the data is available in the kaggle to do so as well. 
+The point of this exercise is the fact that this demonstrate there's a chance to have this type of forecasting even for subjective attributes.
 
 ---
 
@@ -115,24 +116,6 @@ The model classifies wine into **3 quality categories**:
 🔹 **Hyperparameter tuning** – Boost accuracy further
 🔹 **Real-time API** – Deploy as a web/mobile app
 🔹 **Explainable AI** – Show why a wine is predicted as high/low quality
-
----
-## **📥 How to Use (For Developers)**
-1. **Clone the repo** & install dependencies:
-   ```bash
-   pip install pandas numpy scikit-learn seaborn matplotlib
-   ```
-2. **Load the model** (trained `RandomForestClassifier` provided).
-3. **Input wine features** (8 variables) → Get quality prediction.
-
-*(Example code available upon request.)*
-
----
-## **📧 Contact & Support**
-For inquiries, custom models, or API access:
-📩 **Email:** [your-email@example.com]
-🌐 **Website:** [your-website.com]
-🐦 **Twitter:** [@yourhandle]
 
 ---
 **🍷 Cheers to data-driven wine tasting!** 🍷
